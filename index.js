@@ -18,7 +18,7 @@ App.use(cookieParser());
 App.use(Express.json());
 App.use(helmet())
 App.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: 'https://spocofy.netlify.app/', 
     credentials: true
 }))
 App.use(morgan("dev"))
