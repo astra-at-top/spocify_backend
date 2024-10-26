@@ -18,7 +18,7 @@ App.use(cookieParser());
 App.use(Express.json());
 App.use(helmet())
 App.use(cors({
-    origin: 'https://spocofy.netlify.app/', 
+    origin: 'https://spocofy.netlify.app', 
     credentials: true
 }))
 App.use(morgan("dev"))
